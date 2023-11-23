@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "jsx": "preserve",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "target": "esnext",
+        "sourceMap": true,
+        "esModuleInterop": true,
+        "lib": ["dom", "es6"],
+        "noImplicitReturns": false,
+        "noImplicitAny": true,
+        "noImplicitOverride": true,
+        "baseUrl": "src",
+        "strict": true,
+        "alwaysStrict": true,
+        "paths": {
+            "@components/*": ["components/*"],
+            "@lib/*": ["lib/*"]
+        }
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules/*"
+    ]
+}
